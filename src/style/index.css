@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,72 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #3b5998;
+  color: white;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.register-button {
+  margin-left: 10px;
+  padding: 3px 10px;
+  background-color: #42b72a;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  align-self: center;
+}
+.dropdown-icon {
+  margin-left: 10px;
+}
+main {
+  width: 60%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.description {
+  margin-bottom: 50px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product-item {
+  background-color: white;
+  width: 48%;
+  min-width: 220px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-item img {
+  margin-top: 20px;
+  min-width: 200px;
+}
+.product-description {
+  color: gray;
+  min-height: 100px;
+  margin: 0 10px;
+}
+.start-button {
+  margin: 25px 0;
+  border: solid 1px #bbbb;
+  border-radius: 3px;
+  padding: 3px 10px;
+  color: #71757a;
 }
